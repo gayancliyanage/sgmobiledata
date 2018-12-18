@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		80BE9E0D21C79CD600DA8578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E0C21C79CD600DA8578 /* AppDelegate.swift */; };
 		80BE9E0F21C79CD600DA8578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E0E21C79CD600DA8578 /* ViewController.swift */; };
 		80BE9E1221C79CD600DA8578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E1021C79CD600DA8578 /* Main.storyboard */; };
@@ -14,6 +15,16 @@
 		80BE9E1721C79CD800DA8578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E1521C79CD800DA8578 /* LaunchScreen.storyboard */; };
 		80BE9E2221C79CD800DA8578 /* SGMobileDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E2121C79CD800DA8578 /* SGMobileDataTests.swift */; };
 		80BE9E2D21C79CD800DA8578 /* SGMobileDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E2C21C79CD800DA8578 /* SGMobileDataUITests.swift */; };
+=======
+		80BE9E4721C79E5D00DA8578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E4621C79E5D00DA8578 /* AppDelegate.swift */; };
+		80BE9E4C21C79E5D00DA8578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E4A21C79E5D00DA8578 /* Main.storyboard */; };
+		80BE9E4E21C79E6000DA8578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E4D21C79E6000DA8578 /* Assets.xcassets */; };
+		80BE9E5121C79E6000DA8578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E4F21C79E6000DA8578 /* LaunchScreen.storyboard */; };
+		80BE9E5C21C79E6000DA8578 /* SGMobileDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E5B21C79E6000DA8578 /* SGMobileDataTests.swift */; };
+		80BE9E6721C79E6000DA8578 /* SGMobileDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E6621C79E6000DA8578 /* SGMobileDataUITests.swift */; };
+		80BE9E7C21C7A41400DA8578 /* QuarterDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E7B21C7A41400DA8578 /* QuarterDataTests.swift */; };
+		80BE9E8021C7A81C00DA8578 /* QuarterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E7F21C7A81C00DA8578 /* QuarterData.swift */; };
+>>>>>>> d32ef80... structure and QuaterData
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		80BE9E0921C79CD600DA8578 /* SGMobileData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGMobileData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BE9E0C21C79CD600DA8578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80BE9E0E21C79CD600DA8578 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,22 @@
 		80BE9E2821C79CD800DA8578 /* SGMobileDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGMobileDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BE9E2C21C79CD800DA8578 /* SGMobileDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGMobileDataUITests.swift; sourceTree = "<group>"; };
 		80BE9E2E21C79CD800DA8578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+=======
+		80BE9E4321C79E5D00DA8578 /* SGMobileData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGMobileData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BE9E4621C79E5D00DA8578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80BE9E4B21C79E5D00DA8578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80BE9E4D21C79E6000DA8578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80BE9E5021C79E6000DA8578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80BE9E5221C79E6000DA8578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BE9E5721C79E6000DA8578 /* SGMobileDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGMobileDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BE9E5B21C79E6000DA8578 /* SGMobileDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGMobileDataTests.swift; sourceTree = "<group>"; };
+		80BE9E5D21C79E6000DA8578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BE9E6221C79E6000DA8578 /* SGMobileDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGMobileDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BE9E6621C79E6000DA8578 /* SGMobileDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGMobileDataUITests.swift; sourceTree = "<group>"; };
+		80BE9E6821C79E6000DA8578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BE9E7B21C7A41400DA8578 /* QuarterDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterDataTests.swift; sourceTree = "<group>"; };
+		80BE9E7F21C7A81C00DA8578 /* QuarterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterData.swift; sourceTree = "<group>"; };
+>>>>>>> d32ef80... structure and QuaterData
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +125,23 @@
 		80BE9E0B21C79CD600DA8578 /* SGMobileData */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				80BE9E0C21C79CD600DA8578 /* AppDelegate.swift */,
 				80BE9E0E21C79CD600DA8578 /* ViewController.swift */,
 				80BE9E1021C79CD600DA8578 /* Main.storyboard */,
 				80BE9E1321C79CD800DA8578 /* Assets.xcassets */,
 				80BE9E1521C79CD800DA8578 /* LaunchScreen.storyboard */,
 				80BE9E1821C79CD800DA8578 /* Info.plist */,
+=======
+				80BE9E7A21C7A10D00DA8578 /* ViewModel */,
+				80BE9E7921C7A0F600DA8578 /* View */,
+				80BE9E7821C7A0D500DA8578 /* Model */,
+				80BE9E7721C7A0B400DA8578 /* Services */,
+				80BE9E7521C7A06A00DA8578 /* App */,
+				80BE9E7621C7A08700DA8578 /* Storyboard */,
+				80BE9E7421C7A04600DA8578 /* Assets */,
+				80BE9E5221C79E6000DA8578 /* Info.plist */,
+>>>>>>> d32ef80... structure and QuaterData
 			);
 			path = SGMobileData;
 			sourceTree = "<group>";
@@ -110,8 +149,14 @@
 		80BE9E2021C79CD800DA8578 /* SGMobileDataTests */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				80BE9E2121C79CD800DA8578 /* SGMobileDataTests.swift */,
 				80BE9E2321C79CD800DA8578 /* Info.plist */,
+=======
+				80BE9E5B21C79E6000DA8578 /* SGMobileDataTests.swift */,
+				80BE9E5D21C79E6000DA8578 /* Info.plist */,
+				80BE9E7B21C7A41400DA8578 /* QuarterDataTests.swift */,
+>>>>>>> d32ef80... structure and QuaterData
 			);
 			path = SGMobileDataTests;
 			sourceTree = "<group>";
@@ -123,6 +168,60 @@
 				80BE9E2E21C79CD800DA8578 /* Info.plist */,
 			);
 			path = SGMobileDataUITests;
+			sourceTree = "<group>";
+		};
+		80BE9E7421C7A04600DA8578 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				80BE9E4D21C79E6000DA8578 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		80BE9E7521C7A06A00DA8578 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				80BE9E4621C79E5D00DA8578 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		80BE9E7621C7A08700DA8578 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				80BE9E4A21C79E5D00DA8578 /* Main.storyboard */,
+				80BE9E4F21C79E6000DA8578 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		80BE9E7721C7A0B400DA8578 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		80BE9E7821C7A0D500DA8578 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80BE9E7F21C7A81C00DA8578 /* QuarterData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80BE9E7921C7A0F600DA8578 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80BE9E7A21C7A10D00DA8578 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +355,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				80BE9E0F21C79CD600DA8578 /* ViewController.swift in Sources */,
 				80BE9E0D21C79CD600DA8578 /* AppDelegate.swift in Sources */,
+=======
+				80BE9E8021C7A81C00DA8578 /* QuarterData.swift in Sources */,
+				80BE9E4721C79E5D00DA8578 /* AppDelegate.swift in Sources */,
+>>>>>>> d32ef80... structure and QuaterData
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +369,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				80BE9E2221C79CD800DA8578 /* SGMobileDataTests.swift in Sources */,
+=======
+				80BE9E7C21C7A41400DA8578 /* QuarterDataTests.swift in Sources */,
+				80BE9E5C21C79E6000DA8578 /* SGMobileDataTests.swift in Sources */,
+>>>>>>> d32ef80... structure and QuaterData
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
