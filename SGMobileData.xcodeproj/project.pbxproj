@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		80BE9E0D21C79CD600DA8578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E0C21C79CD600DA8578 /* AppDelegate.swift */; };
-		80BE9E0F21C79CD600DA8578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E0E21C79CD600DA8578 /* ViewController.swift */; };
-		80BE9E1221C79CD600DA8578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E1021C79CD600DA8578 /* Main.storyboard */; };
-		80BE9E1421C79CD800DA8578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E1321C79CD800DA8578 /* Assets.xcassets */; };
-		80BE9E1721C79CD800DA8578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E1521C79CD800DA8578 /* LaunchScreen.storyboard */; };
-		80BE9E2221C79CD800DA8578 /* SGMobileDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E2121C79CD800DA8578 /* SGMobileDataTests.swift */; };
-		80BE9E2D21C79CD800DA8578 /* SGMobileDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E2C21C79CD800DA8578 /* SGMobileDataUITests.swift */; };
-=======
 		80BE9E4721C79E5D00DA8578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E4621C79E5D00DA8578 /* AppDelegate.swift */; };
 		80BE9E4C21C79E5D00DA8578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E4A21C79E5D00DA8578 /* Main.storyboard */; };
 		80BE9E4E21C79E6000DA8578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E4D21C79E6000DA8578 /* Assets.xcassets */; };
@@ -24,42 +15,28 @@
 		80BE9E6721C79E6000DA8578 /* SGMobileDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E6621C79E6000DA8578 /* SGMobileDataUITests.swift */; };
 		80BE9E7C21C7A41400DA8578 /* QuarterDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E7B21C7A41400DA8578 /* QuarterDataTests.swift */; };
 		80BE9E8021C7A81C00DA8578 /* QuarterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E7F21C7A81C00DA8578 /* QuarterData.swift */; };
->>>>>>> d32ef80... structure and QuaterData
+		80BE9E8221C87F9700DA8578 /* YearDataCellModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8121C87F9700DA8578 /* YearDataCellModelTests.swift */; };
+		80BE9E8421C8840200DA8578 /* YearDataCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8321C8840200DA8578 /* YearDataCellModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		80BE9E1E21C79CD800DA8578 /* PBXContainerItemProxy */ = {
+		80BE9E5821C79E6000DA8578 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80BE9E0121C79CD600DA8578 /* Project object */;
+			containerPortal = 80BE9E3B21C79E5D00DA8578 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80BE9E0821C79CD600DA8578;
+			remoteGlobalIDString = 80BE9E4221C79E5D00DA8578;
 			remoteInfo = SGMobileData;
 		};
-		80BE9E2921C79CD800DA8578 /* PBXContainerItemProxy */ = {
+		80BE9E6321C79E6000DA8578 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80BE9E0121C79CD600DA8578 /* Project object */;
+			containerPortal = 80BE9E3B21C79E5D00DA8578 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80BE9E0821C79CD600DA8578;
+			remoteGlobalIDString = 80BE9E4221C79E5D00DA8578;
 			remoteInfo = SGMobileData;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		80BE9E0921C79CD600DA8578 /* SGMobileData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGMobileData.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80BE9E0C21C79CD600DA8578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80BE9E0E21C79CD600DA8578 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80BE9E1121C79CD600DA8578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80BE9E1321C79CD800DA8578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80BE9E1621C79CD800DA8578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80BE9E1821C79CD800DA8578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80BE9E1D21C79CD800DA8578 /* SGMobileDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGMobileDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80BE9E2121C79CD800DA8578 /* SGMobileDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGMobileDataTests.swift; sourceTree = "<group>"; };
-		80BE9E2321C79CD800DA8578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80BE9E2821C79CD800DA8578 /* SGMobileDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGMobileDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80BE9E2C21C79CD800DA8578 /* SGMobileDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGMobileDataUITests.swift; sourceTree = "<group>"; };
-		80BE9E2E21C79CD800DA8578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-=======
 		80BE9E4321C79E5D00DA8578 /* SGMobileData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGMobileData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BE9E4621C79E5D00DA8578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80BE9E4B21C79E5D00DA8578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,25 +51,26 @@
 		80BE9E6821C79E6000DA8578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80BE9E7B21C7A41400DA8578 /* QuarterDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterDataTests.swift; sourceTree = "<group>"; };
 		80BE9E7F21C7A81C00DA8578 /* QuarterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterData.swift; sourceTree = "<group>"; };
->>>>>>> d32ef80... structure and QuaterData
+		80BE9E8121C87F9700DA8578 /* YearDataCellModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataCellModelTests.swift; sourceTree = "<group>"; };
+		80BE9E8321C8840200DA8578 /* YearDataCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataCellModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80BE9E0621C79CD600DA8578 /* Frameworks */ = {
+		80BE9E4021C79E5D00DA8578 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80BE9E1A21C79CD800DA8578 /* Frameworks */ = {
+		80BE9E5421C79E6000DA8578 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80BE9E2521C79CD800DA8578 /* Frameworks */ = {
+		80BE9E5F21C79E6000DA8578 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -102,37 +80,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80BE9E0021C79CD600DA8578 = {
+		80BE9E3A21C79E5D00DA8578 = {
 			isa = PBXGroup;
 			children = (
-				80BE9E0B21C79CD600DA8578 /* SGMobileData */,
-				80BE9E2021C79CD800DA8578 /* SGMobileDataTests */,
-				80BE9E2B21C79CD800DA8578 /* SGMobileDataUITests */,
-				80BE9E0A21C79CD600DA8578 /* Products */,
+				80BE9E4521C79E5D00DA8578 /* SGMobileData */,
+				80BE9E5A21C79E6000DA8578 /* SGMobileDataTests */,
+				80BE9E6521C79E6000DA8578 /* SGMobileDataUITests */,
+				80BE9E4421C79E5D00DA8578 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		80BE9E0A21C79CD600DA8578 /* Products */ = {
+		80BE9E4421C79E5D00DA8578 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80BE9E0921C79CD600DA8578 /* SGMobileData.app */,
-				80BE9E1D21C79CD800DA8578 /* SGMobileDataTests.xctest */,
-				80BE9E2821C79CD800DA8578 /* SGMobileDataUITests.xctest */,
+				80BE9E4321C79E5D00DA8578 /* SGMobileData.app */,
+				80BE9E5721C79E6000DA8578 /* SGMobileDataTests.xctest */,
+				80BE9E6221C79E6000DA8578 /* SGMobileDataUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80BE9E0B21C79CD600DA8578 /* SGMobileData */ = {
+		80BE9E4521C79E5D00DA8578 /* SGMobileData */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				80BE9E0C21C79CD600DA8578 /* AppDelegate.swift */,
-				80BE9E0E21C79CD600DA8578 /* ViewController.swift */,
-				80BE9E1021C79CD600DA8578 /* Main.storyboard */,
-				80BE9E1321C79CD800DA8578 /* Assets.xcassets */,
-				80BE9E1521C79CD800DA8578 /* LaunchScreen.storyboard */,
-				80BE9E1821C79CD800DA8578 /* Info.plist */,
-=======
 				80BE9E7A21C7A10D00DA8578 /* ViewModel */,
 				80BE9E7921C7A0F600DA8578 /* View */,
 				80BE9E7821C7A0D500DA8578 /* Model */,
@@ -141,31 +111,26 @@
 				80BE9E7621C7A08700DA8578 /* Storyboard */,
 				80BE9E7421C7A04600DA8578 /* Assets */,
 				80BE9E5221C79E6000DA8578 /* Info.plist */,
->>>>>>> d32ef80... structure and QuaterData
 			);
 			path = SGMobileData;
 			sourceTree = "<group>";
 		};
-		80BE9E2021C79CD800DA8578 /* SGMobileDataTests */ = {
+		80BE9E5A21C79E6000DA8578 /* SGMobileDataTests */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				80BE9E2121C79CD800DA8578 /* SGMobileDataTests.swift */,
-				80BE9E2321C79CD800DA8578 /* Info.plist */,
-=======
 				80BE9E5B21C79E6000DA8578 /* SGMobileDataTests.swift */,
 				80BE9E5D21C79E6000DA8578 /* Info.plist */,
 				80BE9E7B21C7A41400DA8578 /* QuarterDataTests.swift */,
->>>>>>> d32ef80... structure and QuaterData
+				80BE9E8121C87F9700DA8578 /* YearDataCellModelTests.swift */,
 			);
 			path = SGMobileDataTests;
 			sourceTree = "<group>";
 		};
-		80BE9E2B21C79CD800DA8578 /* SGMobileDataUITests */ = {
+		80BE9E6521C79E6000DA8578 /* SGMobileDataUITests */ = {
 			isa = PBXGroup;
 			children = (
-				80BE9E2C21C79CD800DA8578 /* SGMobileDataUITests.swift */,
-				80BE9E2E21C79CD800DA8578 /* Info.plist */,
+				80BE9E6621C79E6000DA8578 /* SGMobileDataUITests.swift */,
+				80BE9E6821C79E6000DA8578 /* Info.plist */,
 			);
 			path = SGMobileDataUITests;
 			sourceTree = "<group>";
@@ -206,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				80BE9E7F21C7A81C00DA8578 /* QuarterData.swift */,
+				80BE9E8321C8840200DA8578 /* YearDataCellModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,13 +193,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80BE9E0821C79CD600DA8578 /* SGMobileData */ = {
+		80BE9E4221C79E5D00DA8578 /* SGMobileData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80BE9E3121C79CD800DA8578 /* Build configuration list for PBXNativeTarget "SGMobileData" */;
+			buildConfigurationList = 80BE9E6B21C79E6000DA8578 /* Build configuration list for PBXNativeTarget "SGMobileData" */;
 			buildPhases = (
-				80BE9E0521C79CD600DA8578 /* Sources */,
-				80BE9E0621C79CD600DA8578 /* Frameworks */,
-				80BE9E0721C79CD600DA8578 /* Resources */,
+				80BE9E3F21C79E5D00DA8578 /* Sources */,
+				80BE9E4021C79E5D00DA8578 /* Frameworks */,
+				80BE9E4121C79E5D00DA8578 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -241,69 +207,69 @@
 			);
 			name = SGMobileData;
 			productName = SGMobileData;
-			productReference = 80BE9E0921C79CD600DA8578 /* SGMobileData.app */;
+			productReference = 80BE9E4321C79E5D00DA8578 /* SGMobileData.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80BE9E1C21C79CD800DA8578 /* SGMobileDataTests */ = {
+		80BE9E5621C79E6000DA8578 /* SGMobileDataTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80BE9E3421C79CD800DA8578 /* Build configuration list for PBXNativeTarget "SGMobileDataTests" */;
+			buildConfigurationList = 80BE9E6E21C79E6000DA8578 /* Build configuration list for PBXNativeTarget "SGMobileDataTests" */;
 			buildPhases = (
-				80BE9E1921C79CD800DA8578 /* Sources */,
-				80BE9E1A21C79CD800DA8578 /* Frameworks */,
-				80BE9E1B21C79CD800DA8578 /* Resources */,
+				80BE9E5321C79E6000DA8578 /* Sources */,
+				80BE9E5421C79E6000DA8578 /* Frameworks */,
+				80BE9E5521C79E6000DA8578 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80BE9E1F21C79CD800DA8578 /* PBXTargetDependency */,
+				80BE9E5921C79E6000DA8578 /* PBXTargetDependency */,
 			);
 			name = SGMobileDataTests;
 			productName = SGMobileDataTests;
-			productReference = 80BE9E1D21C79CD800DA8578 /* SGMobileDataTests.xctest */;
+			productReference = 80BE9E5721C79E6000DA8578 /* SGMobileDataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		80BE9E2721C79CD800DA8578 /* SGMobileDataUITests */ = {
+		80BE9E6121C79E6000DA8578 /* SGMobileDataUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80BE9E3721C79CD800DA8578 /* Build configuration list for PBXNativeTarget "SGMobileDataUITests" */;
+			buildConfigurationList = 80BE9E7121C79E6000DA8578 /* Build configuration list for PBXNativeTarget "SGMobileDataUITests" */;
 			buildPhases = (
-				80BE9E2421C79CD800DA8578 /* Sources */,
-				80BE9E2521C79CD800DA8578 /* Frameworks */,
-				80BE9E2621C79CD800DA8578 /* Resources */,
+				80BE9E5E21C79E6000DA8578 /* Sources */,
+				80BE9E5F21C79E6000DA8578 /* Frameworks */,
+				80BE9E6021C79E6000DA8578 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80BE9E2A21C79CD800DA8578 /* PBXTargetDependency */,
+				80BE9E6421C79E6000DA8578 /* PBXTargetDependency */,
 			);
 			name = SGMobileDataUITests;
 			productName = SGMobileDataUITests;
-			productReference = 80BE9E2821C79CD800DA8578 /* SGMobileDataUITests.xctest */;
+			productReference = 80BE9E6221C79E6000DA8578 /* SGMobileDataUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80BE9E0121C79CD600DA8578 /* Project object */ = {
+		80BE9E3B21C79E5D00DA8578 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Gayan Liyanage";
 				TargetAttributes = {
-					80BE9E0821C79CD600DA8578 = {
+					80BE9E4221C79E5D00DA8578 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					80BE9E1C21C79CD800DA8578 = {
+					80BE9E5621C79E6000DA8578 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 80BE9E0821C79CD600DA8578;
+						TestTargetID = 80BE9E4221C79E5D00DA8578;
 					};
-					80BE9E2721C79CD800DA8578 = {
+					80BE9E6121C79E6000DA8578 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 80BE9E0821C79CD600DA8578;
+						TestTargetID = 80BE9E4221C79E5D00DA8578;
 					};
 				};
 			};
-			buildConfigurationList = 80BE9E0421C79CD600DA8578 /* Build configuration list for PBXProject "SGMobileData" */;
+			buildConfigurationList = 80BE9E3E21C79E5D00DA8578 /* Build configuration list for PBXProject "SGMobileData" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -311,37 +277,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 80BE9E0021C79CD600DA8578;
-			productRefGroup = 80BE9E0A21C79CD600DA8578 /* Products */;
+			mainGroup = 80BE9E3A21C79E5D00DA8578;
+			productRefGroup = 80BE9E4421C79E5D00DA8578 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80BE9E0821C79CD600DA8578 /* SGMobileData */,
-				80BE9E1C21C79CD800DA8578 /* SGMobileDataTests */,
-				80BE9E2721C79CD800DA8578 /* SGMobileDataUITests */,
+				80BE9E4221C79E5D00DA8578 /* SGMobileData */,
+				80BE9E5621C79E6000DA8578 /* SGMobileDataTests */,
+				80BE9E6121C79E6000DA8578 /* SGMobileDataUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80BE9E0721C79CD600DA8578 /* Resources */ = {
+		80BE9E4121C79E5D00DA8578 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80BE9E1721C79CD800DA8578 /* LaunchScreen.storyboard in Resources */,
-				80BE9E1421C79CD800DA8578 /* Assets.xcassets in Resources */,
-				80BE9E1221C79CD600DA8578 /* Main.storyboard in Resources */,
+				80BE9E5121C79E6000DA8578 /* LaunchScreen.storyboard in Resources */,
+				80BE9E4E21C79E6000DA8578 /* Assets.xcassets in Resources */,
+				80BE9E4C21C79E5D00DA8578 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80BE9E1B21C79CD800DA8578 /* Resources */ = {
+		80BE9E5521C79E6000DA8578 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80BE9E2621C79CD800DA8578 /* Resources */ = {
+		80BE9E6021C79E6000DA8578 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,69 +317,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80BE9E0521C79CD600DA8578 /* Sources */ = {
+		80BE9E3F21C79E5D00DA8578 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				80BE9E0F21C79CD600DA8578 /* ViewController.swift in Sources */,
-				80BE9E0D21C79CD600DA8578 /* AppDelegate.swift in Sources */,
-=======
 				80BE9E8021C7A81C00DA8578 /* QuarterData.swift in Sources */,
+				80BE9E8421C8840200DA8578 /* YearDataCellModel.swift in Sources */,
 				80BE9E4721C79E5D00DA8578 /* AppDelegate.swift in Sources */,
->>>>>>> d32ef80... structure and QuaterData
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80BE9E1921C79CD800DA8578 /* Sources */ = {
+		80BE9E5321C79E6000DA8578 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				80BE9E2221C79CD800DA8578 /* SGMobileDataTests.swift in Sources */,
-=======
 				80BE9E7C21C7A41400DA8578 /* QuarterDataTests.swift in Sources */,
 				80BE9E5C21C79E6000DA8578 /* SGMobileDataTests.swift in Sources */,
->>>>>>> d32ef80... structure and QuaterData
+				80BE9E8221C87F9700DA8578 /* YearDataCellModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80BE9E2421C79CD800DA8578 /* Sources */ = {
+		80BE9E5E21C79E6000DA8578 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80BE9E2D21C79CD800DA8578 /* SGMobileDataUITests.swift in Sources */,
+				80BE9E6721C79E6000DA8578 /* SGMobileDataUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		80BE9E1F21C79CD800DA8578 /* PBXTargetDependency */ = {
+		80BE9E5921C79E6000DA8578 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80BE9E0821C79CD600DA8578 /* SGMobileData */;
-			targetProxy = 80BE9E1E21C79CD800DA8578 /* PBXContainerItemProxy */;
+			target = 80BE9E4221C79E5D00DA8578 /* SGMobileData */;
+			targetProxy = 80BE9E5821C79E6000DA8578 /* PBXContainerItemProxy */;
 		};
-		80BE9E2A21C79CD800DA8578 /* PBXTargetDependency */ = {
+		80BE9E6421C79E6000DA8578 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80BE9E0821C79CD600DA8578 /* SGMobileData */;
-			targetProxy = 80BE9E2921C79CD800DA8578 /* PBXContainerItemProxy */;
+			target = 80BE9E4221C79E5D00DA8578 /* SGMobileData */;
+			targetProxy = 80BE9E6321C79E6000DA8578 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		80BE9E1021C79CD600DA8578 /* Main.storyboard */ = {
+		80BE9E4A21C79E5D00DA8578 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80BE9E1121C79CD600DA8578 /* Base */,
+				80BE9E4B21C79E5D00DA8578 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		80BE9E1521C79CD800DA8578 /* LaunchScreen.storyboard */ = {
+		80BE9E4F21C79E6000DA8578 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80BE9E1621C79CD800DA8578 /* Base */,
+				80BE9E5021C79E6000DA8578 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -421,7 +380,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		80BE9E2F21C79CD800DA8578 /* Debug */ = {
+		80BE9E6921C79E6000DA8578 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -482,7 +441,7 @@
 			};
 			name = Debug;
 		};
-		80BE9E3021C79CD800DA8578 /* Release */ = {
+		80BE9E6A21C79E6000DA8578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -537,7 +496,7 @@
 			};
 			name = Release;
 		};
-		80BE9E3221C79CD800DA8578 /* Debug */ = {
+		80BE9E6C21C79E6000DA8578 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -555,7 +514,7 @@
 			};
 			name = Debug;
 		};
-		80BE9E3321C79CD800DA8578 /* Release */ = {
+		80BE9E6D21C79E6000DA8578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -573,7 +532,7 @@
 			};
 			name = Release;
 		};
-		80BE9E3521C79CD800DA8578 /* Debug */ = {
+		80BE9E6F21C79E6000DA8578 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -594,7 +553,7 @@
 			};
 			name = Debug;
 		};
-		80BE9E3621C79CD800DA8578 /* Release */ = {
+		80BE9E7021C79E6000DA8578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -615,7 +574,7 @@
 			};
 			name = Release;
 		};
-		80BE9E3821C79CD800DA8578 /* Debug */ = {
+		80BE9E7221C79E6000DA8578 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -635,7 +594,7 @@
 			};
 			name = Debug;
 		};
-		80BE9E3921C79CD800DA8578 /* Release */ = {
+		80BE9E7321C79E6000DA8578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -658,43 +617,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80BE9E0421C79CD600DA8578 /* Build configuration list for PBXProject "SGMobileData" */ = {
+		80BE9E3E21C79E5D00DA8578 /* Build configuration list for PBXProject "SGMobileData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80BE9E2F21C79CD800DA8578 /* Debug */,
-				80BE9E3021C79CD800DA8578 /* Release */,
+				80BE9E6921C79E6000DA8578 /* Debug */,
+				80BE9E6A21C79E6000DA8578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80BE9E3121C79CD800DA8578 /* Build configuration list for PBXNativeTarget "SGMobileData" */ = {
+		80BE9E6B21C79E6000DA8578 /* Build configuration list for PBXNativeTarget "SGMobileData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80BE9E3221C79CD800DA8578 /* Debug */,
-				80BE9E3321C79CD800DA8578 /* Release */,
+				80BE9E6C21C79E6000DA8578 /* Debug */,
+				80BE9E6D21C79E6000DA8578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80BE9E3421C79CD800DA8578 /* Build configuration list for PBXNativeTarget "SGMobileDataTests" */ = {
+		80BE9E6E21C79E6000DA8578 /* Build configuration list for PBXNativeTarget "SGMobileDataTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80BE9E3521C79CD800DA8578 /* Debug */,
-				80BE9E3621C79CD800DA8578 /* Release */,
+				80BE9E6F21C79E6000DA8578 /* Debug */,
+				80BE9E7021C79E6000DA8578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80BE9E3721C79CD800DA8578 /* Build configuration list for PBXNativeTarget "SGMobileDataUITests" */ = {
+		80BE9E7121C79E6000DA8578 /* Build configuration list for PBXNativeTarget "SGMobileDataUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80BE9E3821C79CD800DA8578 /* Debug */,
-				80BE9E3921C79CD800DA8578 /* Release */,
+				80BE9E7221C79E6000DA8578 /* Debug */,
+				80BE9E7321C79E6000DA8578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 80BE9E0121C79CD600DA8578 /* Project object */;
+	rootObject = 80BE9E3B21C79E5D00DA8578 /* Project object */;
 }
