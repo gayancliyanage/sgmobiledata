@@ -17,6 +17,9 @@
 		80BE9E8021C7A81C00DA8578 /* QuarterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E7F21C7A81C00DA8578 /* QuarterData.swift */; };
 		80BE9E8221C87F9700DA8578 /* YearDataCellModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8121C87F9700DA8578 /* YearDataCellModelTests.swift */; };
 		80BE9E8421C8840200DA8578 /* YearDataCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8321C8840200DA8578 /* YearDataCellModel.swift */; };
+		80BE9E8621C8A82900DA8578 /* YearDataListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8521C8A82900DA8578 /* YearDataListViewModelTests.swift */; };
+		80BE9E8821C8AA7D00DA8578 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8721C8AA7D00DA8578 /* DataFetcher.swift */; };
+		80BE9E8A21C8AD9400DA8578 /* YearDataListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8921C8AD9400DA8578 /* YearDataListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		80BE9E7F21C7A81C00DA8578 /* QuarterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterData.swift; sourceTree = "<group>"; };
 		80BE9E8121C87F9700DA8578 /* YearDataCellModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataCellModelTests.swift; sourceTree = "<group>"; };
 		80BE9E8321C8840200DA8578 /* YearDataCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataCellModel.swift; sourceTree = "<group>"; };
+		80BE9E8521C8A82900DA8578 /* YearDataListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataListViewModelTests.swift; sourceTree = "<group>"; };
+		80BE9E8721C8AA7D00DA8578 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		80BE9E8921C8AD9400DA8578 /* YearDataListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,7 @@
 				80BE9E5D21C79E6000DA8578 /* Info.plist */,
 				80BE9E7B21C7A41400DA8578 /* QuarterDataTests.swift */,
 				80BE9E8121C87F9700DA8578 /* YearDataCellModelTests.swift */,
+				80BE9E8521C8A82900DA8578 /* YearDataListViewModelTests.swift */,
 			);
 			path = SGMobileDataTests;
 			sourceTree = "<group>";
@@ -163,6 +170,7 @@
 		80BE9E7721C7A0B400DA8578 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				80BE9E8721C8AA7D00DA8578 /* DataFetcher.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 		80BE9E7A21C7A10D00DA8578 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				80BE9E8921C8AD9400DA8578 /* YearDataListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -323,7 +332,9 @@
 			files = (
 				80BE9E8021C7A81C00DA8578 /* QuarterData.swift in Sources */,
 				80BE9E8421C8840200DA8578 /* YearDataCellModel.swift in Sources */,
+				80BE9E8A21C8AD9400DA8578 /* YearDataListViewModel.swift in Sources */,
 				80BE9E4721C79E5D00DA8578 /* AppDelegate.swift in Sources */,
+				80BE9E8821C8AA7D00DA8578 /* DataFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +344,7 @@
 			files = (
 				80BE9E7C21C7A41400DA8578 /* QuarterDataTests.swift in Sources */,
 				80BE9E5C21C79E6000DA8578 /* SGMobileDataTests.swift in Sources */,
+				80BE9E8621C8A82900DA8578 /* YearDataListViewModelTests.swift in Sources */,
 				80BE9E8221C87F9700DA8578 /* YearDataCellModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

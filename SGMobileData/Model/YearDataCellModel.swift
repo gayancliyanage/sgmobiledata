@@ -19,6 +19,12 @@ struct YearDataCellModel: Equatable  {
         self.isDesc = isDescending(quarterList: quarterList)
     }
     
+    init(year: String, data: Double, isDesc: Bool ){
+        self.year = year
+        self.data = data
+        self.isDesc = isDesc
+    }
+    
     private func calculateYearData(quarterList:[QuarterData]) -> Double {
         var data : Double = 0.0
         for quarter in quarterList {

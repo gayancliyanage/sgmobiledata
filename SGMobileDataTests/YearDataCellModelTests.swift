@@ -19,7 +19,7 @@ class YearDataCellModelTests: XCTestCase {
         super.setUp()
         let attrsOne : [String : Any] =  [ "volume_of_mobile_data": "0.3", "quarter": "2004-Q3","_id": 1]
         let qDOne = QuarterData(attributes: attrsOne)
-        let attrsTwo : [String : Any] =  [ "volume_of_mobile_data": "0.2", "quarter": "2004-Q4","_id": 1]
+        let attrsTwo : [String : Any] =  [ "volume_of_mobile_data": "0.2", "quarter": "2004-Q4","_id": 2]
         let qDTwo = QuarterData(attributes: attrsTwo)
         self.quarterDataList = [qDOne, qDTwo]
         
@@ -45,6 +45,7 @@ class YearDataCellModelTests: XCTestCase {
         XCTAssertEqual(sut.data, 0.25)
         XCTAssertEqual(sut.isDesc, true)
     }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
