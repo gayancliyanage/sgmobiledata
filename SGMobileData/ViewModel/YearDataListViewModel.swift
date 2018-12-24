@@ -18,12 +18,14 @@ class YearDataListViewModel {
     
     // Input
     var viewDidLoad: () -> () = { }
+    var updateTableView: () -> () = { }
     
     private var tableDataSource = [YearDataCellModel]()
     private var dataModel: [YearDataCellModel]! {
         didSet {
             configureTableDataSource()
             configureOutput()
+            updateTableView()
         }
     }
     
@@ -40,13 +42,13 @@ class YearDataListViewModel {
                 self?.displayError(errorMessage!)
                 return
             }
-            self?.dataModel = filterQuaterList(list : list)
+            self?.dataModel = self!.filterQuaterList(list : list)
         }
     }
     
     private func filterQuaterList(list: [QuarterData]) -> [YearDataCellModel]{
         var dataModel = [YearDataCellModel]()
-        let yearList = 2004..<2018
+        let yearList = 2008..<2019
         
         for i in yearList{
             let quarterList = list.filter{ $0.year == "\(i)" }

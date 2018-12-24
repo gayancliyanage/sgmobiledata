@@ -20,6 +20,10 @@
 		80BE9E8621C8A82900DA8578 /* YearDataListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8521C8A82900DA8578 /* YearDataListViewModelTests.swift */; };
 		80BE9E8821C8AA7D00DA8578 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8721C8AA7D00DA8578 /* DataFetcher.swift */; };
 		80BE9E8A21C8AD9400DA8578 /* YearDataListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8921C8AD9400DA8578 /* YearDataListViewModel.swift */; };
+		80BE9E8D21C8E29400DA8578 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BE9E8C21C8E29400DA8578 /* Alamofire.framework */; };
+		80BE9E9021C8F94600DA8578 /* YearDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E8F21C8F94600DA8578 /* YearDataTableViewController.swift */; };
+		80BE9E9621C8FB4A00DA8578 /* YearDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9E9521C8FB4A00DA8578 /* YearDataTableViewCell.swift */; };
+		80BE9E9721C8FDBB00DA8578 /* Alamofire.framework in Resources */ = {isa = PBXBuildFile; fileRef = 80BE9E8C21C8E29400DA8578 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,9 @@
 		80BE9E8521C8A82900DA8578 /* YearDataListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataListViewModelTests.swift; sourceTree = "<group>"; };
 		80BE9E8721C8AA7D00DA8578 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 		80BE9E8921C8AD9400DA8578 /* YearDataListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataListViewModel.swift; sourceTree = "<group>"; };
+		80BE9E8C21C8E29400DA8578 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		80BE9E8F21C8F94600DA8578 /* YearDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataTableViewController.swift; sourceTree = "<group>"; };
+		80BE9E9521C8FB4A00DA8578 /* YearDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDataTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BE9E8D21C8E29400DA8578 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +101,7 @@
 				80BE9E5A21C79E6000DA8578 /* SGMobileDataTests */,
 				80BE9E6521C79E6000DA8578 /* SGMobileDataUITests */,
 				80BE9E4421C79E5D00DA8578 /* Products */,
+				80BE9E8B21C8E29400DA8578 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +196,8 @@
 		80BE9E7921C7A0F600DA8578 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				80BE9E8F21C8F94600DA8578 /* YearDataTableViewController.swift */,
+				80BE9E9521C8FB4A00DA8578 /* YearDataTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +210,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		80BE9E8B21C8E29400DA8578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80BE9E8C21C8E29400DA8578 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,6 +228,7 @@
 				80BE9E3F21C79E5D00DA8578 /* Sources */,
 				80BE9E4021C79E5D00DA8578 /* Frameworks */,
 				80BE9E4121C79E5D00DA8578 /* Resources */,
+				80BE9E8E21C8E2D300DA8578 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -303,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BE9E9721C8FDBB00DA8578 /* Alamofire.framework in Resources */,
 				80BE9E5121C79E6000DA8578 /* LaunchScreen.storyboard in Resources */,
 				80BE9E4E21C79E6000DA8578 /* Assets.xcassets in Resources */,
 				80BE9E4C21C79E5D00DA8578 /* Main.storyboard in Resources */,
@@ -325,11 +346,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80BE9E8E21C8E2D300DA8578 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80BE9E3F21C79E5D00DA8578 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BE9E9021C8F94600DA8578 /* YearDataTableViewController.swift in Sources */,
+				80BE9E9621C8FB4A00DA8578 /* YearDataTableViewCell.swift in Sources */,
 				80BE9E8021C7A81C00DA8578 /* QuarterData.swift in Sources */,
 				80BE9E8421C8840200DA8578 /* YearDataCellModel.swift in Sources */,
 				80BE9E8A21C8AD9400DA8578 /* YearDataListViewModel.swift in Sources */,
@@ -514,6 +558,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622HA2W2ZV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SGMobileData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,6 +580,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622HA2W2ZV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SGMobileData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

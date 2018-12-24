@@ -42,7 +42,7 @@ class YearDataListViewModelTests: XCTestCase {
     
     func tableDataModel() -> [YearDataCellModel] {
         var dataModel = [YearDataCellModel]()
-        let outputModel = YearDataCellModel(year: "2004", data: 0.25, isDesc: true)
+        let outputModel = YearDataCellModel(year: "2009", data: 0.25, isDesc: true)
         dataModel.append(outputModel)
         return dataModel
     }
@@ -63,9 +63,9 @@ class MobileDataFetcher: MobileDataFetcherProtocol {
     var quarterList = [QuarterData]()
     
     init() {
-        let firstQuarter = QuarterData(attributes: [ "volume_of_mobile_data": "0.3", "quarter": "2004-Q3","_id": 1])
+        let firstQuarter = QuarterData(attributes: [ "volume_of_mobile_data": "0.3", "quarter": "2009-Q3","_id": 1])
         quarterList.append(firstQuarter)
-        let secondQuarter = QuarterData(attributes: [ "volume_of_mobile_data": "0.2", "quarter": "2004-Q4","_id": 2])
+        let secondQuarter = QuarterData(attributes: [ "volume_of_mobile_data": "0.2", "quarter": "2009-Q4","_id": 2])
         quarterList.append(secondQuarter)
     }
     
